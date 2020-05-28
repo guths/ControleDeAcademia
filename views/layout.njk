@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+        {% block head %}
+
+        
+            <title>Gym</title>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+        {% endblock %}
+
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600&display=swap">
+        <link rel="stylesheet" href="/styles.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="/">Instructors</a>
+                <a href="/members">Aulas</a>
+            </div>
+        </header>
+
+        {% block content %}
+        {% endblock%}
+
+    </body>
+</html>
