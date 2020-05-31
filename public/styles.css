@@ -35,17 +35,16 @@ header{
 }
 
 /*So vai contar no elemento a seguido do primeiro, ps: nunca pega o primeiro*/
-
 .links a + a{
     margin-left: 32px;
 }
+
 /*Tira o sublinhado do texto coloa uma cor e deixa o texto em posição relativa, ou seja,
 quando é possivel ser uma classe pai de outra*/
 .links a{
     text-decoration: none;
     color: #777;
     position: relative;
-
 }
 
 .links a.active{
@@ -186,7 +185,6 @@ input{
     color: #555;
     font-weight: bold;
     font-size: 18px;
-
 }
 
 input[type="radio"]{
