@@ -2,7 +2,7 @@
 
 
 {% block content %}
-    <form class="card" method="POST" action="/instructors">
+    <form class="card" method="" action="/instructors">
               
         <section 
             class="avatar"
@@ -10,9 +10,12 @@
         </section>
 
         <section class="details">
-            <h3>Novo Instrutor</h3>
+            <h3>Editar instrutor</h3>
 
             {% include 'instructors/fields.njk' %}
+
+            
+            
         </section>
     </form>
 {% endblock content %}
